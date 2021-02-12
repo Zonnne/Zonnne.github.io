@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Zonnne.github.io</id>
+    <id>https://miraiko.xyz</id>
     <title>Zone&apos;s Blog</title>
-    <updated>2021-02-12T07:26:41.485Z</updated>
+    <updated>2021-02-12T07:27:10.993Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Zonnne.github.io"/>
-    <link rel="self" href="https://Zonnne.github.io/atom.xml"/>
+    <link rel="alternate" href="https://miraiko.xyz"/>
+    <link rel="self" href="https://miraiko.xyz/atom.xml"/>
     <subtitle>自分を探す</subtitle>
-    <logo>https://Zonnne.github.io/images/avatar.png</logo>
-    <icon>https://Zonnne.github.io/favicon.ico</icon>
+    <logo>https://miraiko.xyz/images/avatar.png</logo>
+    <icon>https://miraiko.xyz/favicon.ico</icon>
     <rights>All rights reserved 2021, Zone&apos;s Blog</rights>
 </feed>
