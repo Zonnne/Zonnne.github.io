@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Zone&#39;s Blog</title>
+<title>TEsr | Zone&#39;s Blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,14 +12,21 @@
 <link rel="stylesheet" href="https://Zonnne.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="自分を探す">
-    
+    <meta name="description" content="dfsdsd
+" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -89,42 +96,35 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Zonnne.github.io/post/tesr/">
-                  <h2 class="post-title">TEsr</h2>
-                </a>
-                <div class="post-date">
-                  2021-02-14
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Zonnne.github.io/post/jing-nian-ji-tan-qi-yi/">
-                  <h2 class="post-title">经年记谈 其一</h2>
-                </a>
-                <div class="post-date">
-                  2021-02-14
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+          <div class="post-detail">
+            <h2 class="post-title">TEsr</h2>
+            <div class="post-date">2021-02-14</div>
+            
+            <div class="post-content" v-pre>
+              <p>dfsdsd</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Zonnne.github.io/post/jing-nian-ji-tan-qi-yi/">
+                  <h3 class="post-title">
+                    经年记谈 其一
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -145,6 +145,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'f4213f019a09364e52e1',
+        clientSecret: '706cae208fb241e401c7ea7cd60d8e60042b3e23',
+        repo: 'Zonnne.github.io',
+        owner: 'Zonnne',
+        admin: ['Zonnne'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
