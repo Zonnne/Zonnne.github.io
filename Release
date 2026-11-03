@@ -3,6 +3,6 @@ Label: Zonnne's Repo
 Suite: stable
 Version: 1.0
 Codename: zonnne
-Architectures: iphoneos-arm64 iphoneos-arm
+Architectures: iphoneos-arm64 iphoneos-arm64e iphoneos-arm
 Components: main
 Description: CardFX and other tweaks by Zonnne

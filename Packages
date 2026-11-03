@@ -7,12 +7,12 @@ Section: Tweaks
 Depends: mobilesubstrate | ellekit
 Architecture: iphoneos-arm
 Version: 1.1
-Installed-Size: 1200
+Installed-Size: 1216
 Filename: debs/com.cardfx_1.1_iphoneos-arm.deb
-Size: 920970
-MD5sum: 5fadd5d09e4588c04d4782162baae927
-SHA1: 8e7dbf079d7736f1c83a008d9c6cc6fa843470d7
-SHA256: 1be7a1219455850a237f9286fca54e33e2f26de1a563d46b45f7077d925fe4c2
+Size: 922046
+MD5sum: 75bed229781e355cc3a2d93037c5407f
+SHA1: eb6898df4b3fd71911134846785cfa3aa3d962e3
+SHA256: cf5c10f9f09b80f5d034b666398e34b7634502179955595547f3bb21d3ca6d5c
 
 Package: com.cardfx
 Name: CardFX
@@ -23,10 +23,26 @@ Section: Tweaks
 Depends: mobilesubstrate | ellekit
 Architecture: iphoneos-arm64
 Version: 1.1
-Installed-Size: 1200
+Installed-Size: 1216
 Filename: debs/com.cardfx_1.1_iphoneos-arm64.deb
-Size: 921056
-MD5sum: ef5fb88eac625dae5c1533f607f0364c
-SHA1: 2281171594a313af346f7605242b4efcfd4dcd0f
-SHA256: 9db9a3eacbd72634122f1a034333c71b885fe78a50a79a9ffae55005dd6882fb
+Size: 922098
+MD5sum: 7888b6b3d373acd8f7dcd6ae4fdfc831
+SHA1: 361f2bdd2cbf8812dc6112f6298bfef99717beab
+SHA256: afe1e2b1cadc569e7297e4334c2a86ae0a4959428766f1dab87a16304da0384e
+
+Package: com.cardfx
+Name: CardFX
+Description: Animated card faces for Apple Wallet
+Maintainer: zonne
+Author: zonne
+Section: Tweaks
+Depends: mobilesubstrate | ellekit
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 1200
+Filename: debs/com.cardfx_1.1_iphoneos-arm64e.deb
+Size: 921348
+MD5sum: f8d18f57aba86cd519b7f1cc457f9446
+SHA1: 5ea9d9ee3cbd2ac2e3459675d63ab5525ba6fb2b
+SHA256: f153bc15469be0cd67027faf7540c1046b9fc710bc7160edc64c8f2cacc01359
 
